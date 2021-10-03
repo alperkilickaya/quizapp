@@ -34,7 +34,7 @@ class Quiz {
         answer = answer.toLowerCase();
         console.log(answer);
         if (question.checkAnswer(answer)) { // soru doğru bilinirse
-            this.score = this.score + 10; // score'u bir arttır  
+            this.score = this.score + 10; // score'u 10'ar arttır  
         }
 
         this.questionIndex++; // bir sonraki soruya geç
